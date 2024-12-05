@@ -1,0 +1,255 @@
+/* Estilos generales */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8c28;
+    color: black;
+}
+
+header {
+    background-color: #931e0c;
+    color: rgb(246, 255, 0);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+header .men {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .men img {
+    width: 70px;
+    height: 70px;
+    margin-left: 270px;
+}
+
+header .men ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-right: 290px;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: rgb(251, 118, 52);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a {
+    color: #7e0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: #7e0000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(251, 118, 52);
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#ini {
+    background-color: #931e0c;
+    color: rgb(235, 147, 104);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#ini h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#ini p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+#app {
+    background-color: #931e0c;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.app-g {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.app-i {
+    background: rgb(255, 55, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.app-i img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.app-i h2 {
+    color: rgb(235, 147, 104);
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.app-i p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #600d00;
+    color: rgb(252, 146, 93);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f4f4f9;
+}
+
+#reg {
+    background-color: #600d00;
+    color: white;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+#reg h2 {
+    color: white;
+}
+
+#reg form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+#reg form label {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+#reg form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 16px;
+}
+
+#reg form button {
+    padding: 10px 20px;
+    background-color: rgb(252, 146, 93);
+    color: #600d00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#reg form button:hover {
+    background-color: red;
+    color: rgb(252, 146, 93);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#red img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+footer {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+footer h2 {
+    text-decoration: underline;
+    color: #000000;
+}
